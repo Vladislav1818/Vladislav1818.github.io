@@ -1,0 +1,50 @@
+<form class="feedback" id="block_id">
+        <div class="feedback-wrapper" >
+            <div class="feedback-desc">
+                <label class="feedback-label">Имя*</label>
+                <input class="feedback-input" type="text" required>
+            </div>
+            <div class="feedback-desc">
+                <label class="feedback-label">Фамилия</label>
+                <input class="feedback-input" type="text">
+            </div>
+            <div class="feedback-desc">
+                <label class="feedback-label">Email*</label>
+                <input class="feedback-input" type="email" value="alisabelkina@iq-site.ru" required>
+            </div>
+            <div class="feedback-desc">
+                <label class="feedback-label feedback-label-textarea">Текст комментария*</label>
+                <textarea class="feedback-textarea" required></textarea>
+            </div>
+            <div class="rating_block">
+                <label class="rating_block-label">Ваша оценка*</label>
+                <input name="rating" value="5" id="rating_5" type="radio"/>
+                <label for="rating_5" class="label_rating"></label>
+
+                <input name="rating" value="4" id="rating_4" type="radio"/>
+                <label for="rating_4" class="label_rating"></label>
+
+                <input name="rating" value="3" id="rating_3" type="radio"/>
+                <label for="rating_3" class="label_rating"></label>
+
+                <input name="rating" value="2" id="rating_2" type="radio"/>
+                <label for="rating_2" class="label_rating"></label>
+
+                <input name="rating" value="1" id="rating_1" type="radio"/>
+                <label for="rating_1" class="label_rating"></label>
+            </div>
+            <div class="feedback-user-agreement">
+                <img class="feedback-user-agreement-img" src="../img/Rounded_Rectangle_1_copy.png" alt="logo">
+                <span>Нажимая кнопку "Зарегистрироваться", я выражаю согласие с условиями с условиями
+            <a href="#">Пользовательского соглашения</a></span>
+            </div>
+                <div class="captcha">
+                    <img src="../img/captcha.jpg">
+                </div>
+        </div>
+</form>
+        <div class="hidden-form">
+            <button class="button open" onclick="diplay_hide('#block_id');return false;">Добавить отзыв</button>
+        </div>
+
+

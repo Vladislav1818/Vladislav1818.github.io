@@ -1,0 +1,104 @@
+.review-wrapper {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding-top: 30px;
+  margin-top: 15px;
+  @media (min-width:  479px) {
+    border-radius: 2px;
+    border: 1px solid #dedddd;
+  }
+}
+.review-desc {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  @media (min-width: 479px) {
+    flex-direction: row;
+    padding: 15px;
+  }
+  @media (min-width: 768px) {
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 101px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+}
+.review-desc-odd {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  @media (min-width: 479px) {
+    flex-direction: row;
+    padding: 15px;
+  }
+  @media (min-width:  768px) {
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 101px;
+  }
+}
+.review-desc-odd:before {
+
+  @media (min-width:  768px) {
+    content: "";
+    position: absolute;
+    right: 5%;
+    width: 90%;
+    bottom: 115%;
+    height: 1px;
+    background-color: #dedddd;
+  }
+}
+.review-title {
+  color: #292929;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.review-rating {
+  margin-right: 0;
+  line-height: 1;
+  padding-top: 10px;
+  padding-right: 0;
+  @media (min-width:  479px) {
+    padding-right: 30px;
+  }
+  @media (min-width:  769px) {
+    margin-right: -250px;
+  }
+}
+.review-data {
+  color: #292929;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-top: 10px;
+  @media (min-width:  479px) {
+    position: relative;
+    padding-top: 5px;
+  }
+  @media (min-width:  769px) {
+    padding-top: 10px;
+  }
+}
+.review-name {
+  padding-top: 10px;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  @media (min-width:  479px) {
+    padding-bottom: 10px;
+    padding-left: 30px;}
+  @media (min-width:  769px) {
+    padding-top: 15px;
+    margin-right: -250px;
+  }
+}
